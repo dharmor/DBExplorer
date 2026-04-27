@@ -1,4 +1,4 @@
-# DBExploer
+# DBExplorer
 
 DBExplorer is a PHP web application for browsing, inspecting, and working with databases from a browser. It is designed as a practical developer and administrator tool for connecting to supported database systems, exploring schemas and data, exporting records, comparing tables, running SQL, and generating starter code from database structures.
 
