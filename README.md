@@ -98,6 +98,38 @@ After signing in, use the Admin Password page to change the admin password. The 
 - A web server such as Apache
 - PDO and the PDO drivers needed for the database engines you want to connect to
 
+## Docker
+
+DBExplorer includes a PHP 8.3 Apache Docker setup. The container installs PDO drivers for MySQL/MariaDB, PostgreSQL, Firebird, and SQLite.
+
+Build and start the container:
+
+```bash
+docker compose up -d --build
+```
+
+Then open:
+
+`http://localhost:8082`
+
+Use a different port:
+
+```bash
+DBEXPLORER_PORT=8090 docker compose up -d --build
+```
+
+From inside the container, databases running on the host machine can usually be reached with:
+
+`host.docker.internal`
+
+For example, use `host.docker.internal` as the host when connecting DBExplorer to a local MySQL, MariaDB, PostgreSQL, or Firebird server running on your computer.
+
+Stop the container:
+
+```bash
+docker compose down
+```
+
 ## Purpose
 
 DBExplorer is meant to make common database exploration and code-generation tasks faster. It is useful when you need a lightweight browser-based tool for inspecting database structure, reviewing table data, generating starter models or APIs, and documenting database schemas.

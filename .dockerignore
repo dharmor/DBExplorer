@@ -1,0 +1,9 @@
+.git
+.github
+.idea
+Dockerfile
+docker-compose.yml
+.dockerignore
+*.log
+tmp
+temp
