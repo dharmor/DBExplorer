@@ -49,12 +49,27 @@ DBExplorer is especially useful for small projects, internal tools, shared hosti
 
 The model generator can create model code from a selected table schema. Generated models include typed fields where the target language supports them, getter and setter methods, and a method for writing the current model values to a JSON file.
 
+Supported model generation languages include:
+
+- PHP
+- Python
+- JavaScript
+- TypeScript
+- C#
+- C++
+- Java
+- Go
+- Ruby
+- Kotlin
+- Swift
+- Rust
+
 C++ generation produces two files:
 
 - A `.h` header file with the class declaration.
 - A `.cpp` source file with method implementations.
 
-Other languages generate a single source file using the expected file extension for that language.
+All other supported languages generate a single source file using the expected file extension for that language.
 
 ## Supported Databases
 
