@@ -1,5 +1,9 @@
 # DBExplorer
 
+[![Website](https://img.shields.io/badge/Website-www.daves--corner.com-0b5cad?style=for-the-badge)](https://www.daves-corner.com)
+[![Test it live](https://img.shields.io/badge/Test%20it%20live-DBExplorer%20Login-198754?style=for-the-badge)](https://dev.daves-corner.com/live/DBExplorer)
+
+If there is a feature that could be improved or added, or even just a comment, contact me at [dave@daves-corner.com](mailto:dave@daves-corner.com).
 DBExplorer is a PHP web application for browsing, inspecting, and working with databases from a browser. It is designed as a practical developer and administrator tool for connecting to supported database systems, exploring schemas and data, exporting records, comparing tables, running SQL, and generating starter code from database structures.
 
 ## Features
