@@ -4,7 +4,25 @@
 [![Test it live](https://img.shields.io/badge/Test%20it%20live-DBExplorer%20Login-198754?style=for-the-badge)](https://dev.daves-corner.com/live/DBExplorer)
 
 If there is a feature that could be improved or added, or even just a comment, contact me at [dave@daves-corner.com](mailto:dave@daves-corner.com).
-DBExplorer is a PHP web application for browsing, inspecting, and working with databases from a browser. It is designed as a practical developer and administrator tool for connecting to supported database systems, exploring schemas and data, exporting records, comparing tables, running SQL, and generating starter code from database structures.
+
+DBExplorer is a browser-based PHP database management and developer utility. It gives developers, administrators, and support teams a lightweight way to connect to a database, inspect its structure, view and edit records, run SQL queries, export data, compare tables, document schemas, and generate starter API or model code from existing tables.
+
+## What It Does
+
+DBExplorer turns a web browser into a practical database workbench. After signing in, you choose a supported database connection and can move through the database without installing a desktop database client. The app helps you understand what tables exist, how they are structured, what data they contain, and how that data can be exported, compared, documented, or used to generate starter application code.
+
+Typical uses include:
+
+- Quickly inspect a database on a server where desktop tools are not available.
+- Browse tables and records during development or troubleshooting.
+- Run SQL queries from a protected web interface.
+- Add, edit, or delete records when maintaining application data.
+- Compare table data while checking migrations or environment differences.
+- Generate schema documentation for handoff, review, or project notes.
+- Export records for backups, reporting, or analysis.
+- Generate starter models and API code from existing database tables.
+
+DBExplorer is especially useful for small projects, internal tools, shared hosting environments, and quick database review tasks where a simple PHP-based tool is easier to deploy than a full database administration suite.
 
 ## Features
 
@@ -70,4 +88,5 @@ After signing in, use the Admin Password page to change the admin password. The 
 DBExplorer is meant to make common database exploration and code-generation tasks faster. It is useful when you need a lightweight browser-based tool for inspecting database structure, reviewing table data, generating starter models or APIs, and documenting database schemas.
 
 ## Version
+
 1.0.0  Initial release
